@@ -36,7 +36,9 @@ LOAD "RADIO.BAS",R
 
 
 # SCRIPTS
+
 |Arquivo|Descrição|
+|---------|-------------------------------------------------------|
 |RADIO.BAS|Menu de inicialização da aplicação|
 |GSCALDST.BAS|Cálculo de distância entre dois Grid Square Locators|
 |CSCOFIND.BAS|País do indicativo|
