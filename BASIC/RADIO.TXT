@@ -1,0 +1,25 @@
+10 REM <<<< UTILITARIOS PARA RADIOAMADORISMO >>>>
+20 REM <<<< AUTOR: CLEVERSON S A >>>>
+30 CLS:SCREEN 0:KEY OFF
+35 REM 1234567890123456789012345678901234567
+40 PRINT "* UTILITARIOS PARA RADIOAMADORISMO  *"
+50 PRINT "-------------------------------------"
+60 PRINT "                                 v1.0"
+70 PRINT
+100 PRINT " Menu de acesso: "
+110 PRINT
+120 PRINT " (A) - Distancia entre grids"
+130 PRINT " (B) - Pais do indicativo "
+140 PRINT " (C) - Sair "
+150 PRINT
+160 PRINT " Escolha uma opcao: "
+170 O$=INPUT$(1)
+180 IF O$="A" OR O$="a" THEN 230
+190 IF O$="B" OR O$="b" THEN 240
+200 IF O$="C" OR O$="c" THEN 250
+210 BEEP:PRINT "*** OPCAO INVALIDA! ***"
+220 R$=INPUT$(1):RUN
+230 LOAD "GSCALDST.BAS",R
+240 LOAD "CSCOFIND.BAS",R
+250 CLS:END
+
